@@ -3,7 +3,7 @@ import argparse
 import time
 import cv2
  
-# color values of yellow in BGR
+# color values in BGR
 colorLower = np.array([255, 255, 0], dtype = "uint8")
 colorUpper = np.array([255, 255, 150], dtype = "uint8")
 camera = cv2.VideoCapture(0)
